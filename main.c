@@ -48,9 +48,9 @@ static int get_user_input(void)
             /* EOF or error; bail out gracefully */
             puts("\nInput error. Exiting.");
             exit(1);
-        }
+        } 
 
-        // strip trailing newline
+        // strip trailing newline   
         buf[strcspn(buf, "\r\n")] = '\0';
 
         if (!is_integer(buf)) {
