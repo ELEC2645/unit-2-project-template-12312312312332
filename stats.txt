@@ -1,0 +1,6 @@
+statistic value
+mean, 45.35
+median, 44.50
+mode, 12.00
+range, 79.00
+standard deviation, 24.69

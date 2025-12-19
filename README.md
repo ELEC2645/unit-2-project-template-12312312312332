@@ -1,27 +1,15 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21756585)
-# ELEC2645 Unit 2 Project Template
+# ELEC2645 Unit 2 Project
 
-** PLEASE DELETE THIS README AND REPLACE IT WITH YOUR OWN README.md FILE DESCRIBING YOUR PROJECT **
-
-
-This is the basic code for a command line application which you should use for your Unit 2 project.
-
-The code has separated the menu handling code in `main.c` and the function implementations in `funcs.c`. You should add your code to `funcs.c` (or you can create new files if you wish), and update `main.c` to call your functions from the menu.
+This tool includes 3 functionalities: 
+1. Resistor colour code calculator
+2. Sensor data converter
+3. Basic statistic tool
 
 
 ### 1 Run code
 
-You can build the code as we have been using in the labs with 
-`gcc main.c funcs.c -o main.out -lm` (the `-lm` is required to link the math library). You can also use `make -B` to force a rebuild using the provided `Makefile`.
-
-Then run the code with `./main.out`
-
-
-### 2 The assignment
-
-Please read the assignment brief on the Minerva page for details of what you need to implement. 
-
-
+Please use `make -B` to run the code followed by `./main.out`
 
 ### 3 Test command
 
