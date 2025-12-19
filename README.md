@@ -11,15 +11,3 @@ This tool includes 3 functionalities:
 
 Please use `make -B` to run the code followed by `./main.out`
 
-### 3 Test command
-
-The `test.sh` script is provided to check that your code compiles correctly. This is what the autograder will use to check your submission. You can run it with `bash test.sh` or `./test.sh` or just `make test`. 
-
-You do not need to modify this script, but you can look at it to see what it does.
-
-
-### 4 Submit Solution
-
-Use the same method as previous labs to commit and push your code to your GitHub repository for the autograder to check. 
-
-In your final journal post, please include a link to your GitHub repository containing your code  *and* a zip file of your code as an attachment.
