@@ -25,6 +25,8 @@ static const int multipliers[] = {
     100000,  // GREEN
     1000000, // BLUE
     10000000, // VIOLET
+    100000000, // GREY
+    1000000000 // WHITE
 };
 
 #endif
